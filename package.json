@@ -6,6 +6,10 @@
   "repository": "https://github.com/ReiiYuki/ku-structure.github.io.git",
   "author": "Voraton Lertrattanapaisal <iguru.shou.5410070@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "webpack-dev-server --hot --inline --progress --open",
+    "build": "webpack --progress --colors --optimize-min"
+  },
   "dependencies": {
     "bulma": "^0.4.0",
     "react": "^15.5.4",
